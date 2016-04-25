@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#25AE90">
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_centerInParent="true"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:imeOptions="actionNext"
+        android:id="@+id/edt_loginname"
+        android:hint="Mobileno"
+        android:padding="10dp"
+        android:background="@drawable/edt_background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:imeOptions="actionDone"
+        android:id="@+id/edt_loginpassword"
+        android:hint="Password"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edt_background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+<Button
+    android:id="@+id/btn_login"
+    android:textSize="20dp"
+    android:layout_marginTop="40dp"
+    android:background="@drawable/edt_background"
+    android:textColor="#25AE90"
+    android:text="Login"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:textSize="18dp"
+        android:id="@+id/tv_sinup"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="Not a Member ? Signup Now."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+
+
+    </RelativeLayout>
+

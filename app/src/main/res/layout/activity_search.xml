@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.quaere.noida.busmanagementsystem.SearchActivity">
+    <LinearLayout
+        android:id="@+id/line1..1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_red_light"
+        android:padding="2dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:src="@android:drawable/ic_dialog_dialer" />
+
+        <TextView
+            android:layout_width="fill_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text=" BUS Route"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_below="@id/line1..1"
+        android:padding="10dp"
+        android:background="#FFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Source"
+            android:textSize="16dp" />
+        <EditText
+            android:id="@+id/edt_source_search"
+            android:padding="5dp"
+            android:background="@drawable/edt_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Destination"
+            android:textSize="16dp" />
+        <EditText
+            android:id="@+id/edt_destination_search"
+            android:padding="5dp"
+            android:background="@drawable/edt_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:textAllCaps="false"
+            android:layout_marginTop="30dp"
+            android:id="@+id/btn_search_search"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_background"
+            android:layout_alignParentBottom="true"
+            android:textColor="#FFF"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

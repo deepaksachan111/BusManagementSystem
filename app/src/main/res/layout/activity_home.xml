@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.quaere.noida.busmanagementsystem.HomeActivity">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:id="@+id/line1..1"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/holo_red_light"
+                android:padding="2dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="3dp"
+                    android:src="@android:drawable/ic_dialog_dialer" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:text=" BUS Route"
+                    android:textColor="#fff"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_marginTop="100dp">
+
+                <ImageView
+                    android:src="@drawable/add_event"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/addbus"
+                    android:background="#FFF"
+                    android:layout_marginRight="30dp"
+                    />
+
+                <ImageView
+                    android:src="@drawable/delete_selected"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/deletebus"
+                    android:background="#FFF"
+                    android:layout_marginLeft="30dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:gravity="center">
+
+                <ImageView
+                     android:src="@drawable/standby_button"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/logout"
+                    android:background="#FFF"
+                    android:layout_marginRight="30dp"
+                    />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/daddBus"
+                    android:background="#FFF"
+                    android:layout_marginLeft="30dp"
+                    android:visibility="invisible"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
